@@ -3,7 +3,7 @@ import React from "react";
 const Login = ({isLoggedIn,setIsLoggedIn})=>{
 
 if(isLoggedIn){
-    return(<>You are logged in!</>)
+    return(<><p>You are logged in!</p></>)
 }
     return (<>
     <form onSubmit={()=>{setIsLoggedIn(true)}}>
